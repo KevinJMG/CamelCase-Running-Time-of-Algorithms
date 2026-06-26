@@ -26,6 +26,14 @@ Objetivo del problema: El propósito de este ejercicio es implementar el algorit
      ```bash
      ./camelcase
      ```
+     **Sample Input:**
+     ```bash
+     saveChangesInTheEditor
+     ```
+     **Sample Output:**
+     ```bash
+     5
+     ```
 
    ####  Ejercicio 2: Running Time of Algorithms
    * **Compilar:**
@@ -36,5 +44,12 @@ Objetivo del problema: El propósito de este ejercicio es implementar el algorit
      ```bash
      ./running_time
      ```
-
-   
+    **Sample Input:**
+     ```bash
+     4
+     2 1 3 1 2
+     ```
+    **Sample Output:**
+     ```bash
+     4
+     ```
