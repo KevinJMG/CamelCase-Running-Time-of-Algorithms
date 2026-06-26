@@ -13,6 +13,28 @@ Objetivo del problema: El propósito de este ejercicio es implementar el algorit
 3. Espera a que cargue el entorno virtual de VS Code en tu navegador.
 4. Abre una nueva terminal (*Terminal -> New Terminal*).
 
-5. **Compilar el código:**
-   ```bash
-   g++ camelcase.cpp -o camelcase // g++ running_time.cpp -o running_time Importante solo copilar 1 a la vez y luego se ejecutan en bash usando "/running_time" "/camelcase"
+5. **Compilar y Ejecutar los Códigos:**
+
+   Para evitar conflictos en la consola, se recomienda compilar y ejecutar **un ejercicio a la vez** siguiendo estos comandos en la terminal:
+
+   #### Ejercicio 1: CamelCase
+   * **Compilar:**
+     ```bash
+     g++ camelcase.cpp -o camelcase
+     ```
+   * **Ejecutar:**
+     ```bash
+     ./camelcase
+     ```
+
+   ####  Ejercicio 2: Running Time of Algorithms
+   * **Compilar:**
+     ```bash
+     g++ running_time.cpp -o running_time
+     ```
+   * **Ejecutar:**
+     ```bash
+     ./running_time
+     ```
+
+   

@@ -8,7 +8,6 @@ using namespace std;
  * The function is expected to return an INTEGER.
  * The function accepts STRING s as parameter.
  */
-
 int camelcase(string s) {
     if (s.empty()) {
         return 0;
@@ -27,16 +26,15 @@ int camelcase(string s) {
 
 int main()
 {
-    ofstream fout(getenv("OUTPUT_PATH"));
-
     string s;
+    // Mensaje interactivo para que sepa cuándo escribir en la terminal
+    cout << "Introduce la palabra en camelCase: ";
     getline(cin, s);
 
     int result = camelcase(s);
 
-    fout << result << "\n";
-
-    fout.close();
+    // Muestra el resultado directamente en la pantalla
+    cout << "El numero de palabras es: " << result << endl;
 
     return 0;
 }
